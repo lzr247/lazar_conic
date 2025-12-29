@@ -3,23 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Lazar Conic - Frontend Developer. Building accessible, pixel-perfect digital experiences."
-    />
+    <meta name="description" content="Lazar - Front End Developer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/styles.css" />
-
-    <title>Lazar | Frontend Developer</title>
+    <title>Lazar | Developer</title>
   </head>
+
   <body>
+    <div class="layout">
+      <header>
+        <div>
+          <h1>Lazar Conić</h1>
+          <h2>Front End Developer</h2>
+          <p>I build accessible, pixel-perfect digital experiences for the web.</p>
+        </div>
+
+        <nav>
+          <a href="#about" class="nav-link active">
+            <span class="nav-line"></span>
+            <span class="nav-text">About</span>
+          </a>
+          <a href="#experience" class="nav-link">
+            <span class="nav-line"></span>
+            <span class="nav-text">Experience</span>
+          </a>
+          <a href="#projects" class="nav-link">
+            <span class="nav-line"></span>
+            <span class="nav-text">Projects</span>
+          </a>
+        </nav>
+
+        <div class="social">
+          <a href="https://github.com" target="_blank" aria-label="GitHub">GH</a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">LI</a>
+        </div>
+      </header>
+
+      <main>
+        <section id="about">
+          <p>
+            I'm a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful
+            design with robust engineering.
+          </p>
+          <p>
+            Currently, I'm focused on building accessible, human-centered products. In the past, I've had the
+            opportunity to develop software across a variety of settings — from startups to agencies.
+          </p>
+          <p>In my spare time, I enjoy learning new technologies and working on side projects.</p>
+        </section>
+
+        <section id="experience">
+          <a href="#" class="job">
+            <div class="job-date">2023 — Present</div>
+            <div class="job-content">
+              <h3>Front End Developer · Company Name <span class="arrow">↗</span></h3>
+              <p>
+                Build and maintain web applications. Work closely with cross-functional teams to implement best
+                practices.
+              </p>
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </a>
+
+          <a href="#" class="job">
+            <div class="job-date">2021 — 2023</div>
+            <div class="job-content">
+              <h3>Junior Developer · Previous Company <span class="arrow">↗</span></h3>
+              <p>Developed and maintained code for client websites. Collaborated with designers.</p>
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </a>
+        </section>
+
+        <section id="projects">
+          <a href="#" class="project">
+            <div class="project-image">
+              <!-- Add image later -->
+            </div>
+            <div class="project-content">
+              <h3>Project Name <span class="arrow">↗</span></h3>
+              <p>Description of what this project does and why it's interesting.</p>
+              <ul class="tags">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </a>
+        </section>
+
+        <footer>
+          <p>Built with HTML, CSS & JavaScript.</p>
+        </footer>
+      </main>
+    </div>
+
     <script src="js/index.js"></script>
   </body>
 </html>
