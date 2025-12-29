@@ -27,6 +27,17 @@ body {
   line-height: 1.6;
 }
 
+/* Text selection highlight */
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+::-moz-selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
 h1,
 h2,
 h3 {
@@ -109,11 +120,12 @@ nav {
 
   a {
     color: var(--text);
-    font-size: 0.875rem;
-    transition: color 0.2s;
+    font-size: 1.5rem;
+    transition: color 0.2s, transform 0.2s;
 
     &:hover {
       color: var(--text-light);
+      transform: translateY(-2px);
     }
   }
 }
