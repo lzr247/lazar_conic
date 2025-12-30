@@ -25,6 +25,13 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
+  /* Spotlight effect directly on body */
+  background-image: radial-gradient(
+    600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(100, 255, 218, 0.07),
+    transparent 40%
+  );
+  background-attachment: fixed;
 }
 
 /* Text selection highlight */
@@ -161,7 +168,7 @@ section {
 }
 
 .job-date {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
