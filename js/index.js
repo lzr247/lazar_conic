@@ -21,3 +21,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   sections.forEach((section) => observer.observe(section));
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
