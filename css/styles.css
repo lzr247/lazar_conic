@@ -8,11 +8,11 @@
 }
 
 :root {
-  --bg: #0a192f;
-  --bg-light: #112240;
-  --text: #8892b0;
-  --text-light: #ccd6f6;
-  --accent: #64ffda;
+  --bg: #2e3440;
+  --bg-light: #3b4252;
+  --text: #9aa5b8;
+  --text-light: #eceff4;
+  --accent: #88c0d0;
   --font: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -292,7 +292,7 @@ footer {
   .project {
     display: grid;
     grid-template-columns: 100px 1fr;
-    gap: 3rem;
+    gap: 2.6rem;
   }
 
   .job-date {
