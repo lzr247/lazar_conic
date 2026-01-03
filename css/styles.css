@@ -137,6 +137,31 @@ nav {
   }
 }
 
+/* Language Switcher */
+.lang-switch {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+
+  a {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--text);
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--text-light);
+    }
+
+    &.active {
+      color: var(--accent);
+    }
+  }
+}
+
 section {
   margin-bottom: 4rem;
 
